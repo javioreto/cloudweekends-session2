@@ -8,4 +8,4 @@ handlers:
   script: main.app
 
 env_variables:
-  STORAGE_NAME: bet4gamers-7991b
+  STORAGE_NAME: bucket
