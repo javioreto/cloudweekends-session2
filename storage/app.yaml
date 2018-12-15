@@ -1,0 +1,11 @@
+runtime: python27
+threadsafe: yes
+api_version: 1
+service: storage
+
+handlers:
+- url: .*
+  script: main.app
+
+env_variables:
+  STORAGE_NAME: bet4gamers-7991b
